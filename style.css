@@ -67,6 +67,7 @@ h1{
 	font-size: 42px;
 	font-family: Poppins, sans-serif;
 	font-weight: 700;
+	text-align: center;
 	
 }
 
@@ -98,10 +99,98 @@ hr{
 	width: 200px;
 }
 
+ul{
+	line-height: 3em;
+	margin-top: 50px;
+}
+
+li{
+	list-style-type: none;
+	font-size: 18px;
+}
+
+button{
+ background-color: rgb(29,176,109);
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+ margin: 50px auto 0px auto;
+  border-color: rgb(29,176,109);
+  font-family: "Cabin Sketch";
+font-weight: 300;
+text-align: center;
+color: white;
+font-size: 18px;
+}
+
+.greentext{
+	color: rgb(29,176,109);
+}
+.lgreentext{
+	color: rgb(29, 176, 109);
+}
+
+.yellowtext{
+	color: rgb(253, 212, 50);
+}
+
+.redtext{
+	color: rgb(238, 6, 10);
+}
+
+.bluetext{
+	color: rgb(66, 135, 245);
+}
+
+
 .main img {
   margin: 50px 0px 0px 0px;
 }
-
+.circlegreen {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(29,176,109);
+  border-radius: 50%;
+  border-color: black;
+    display: inline-block;
+  vertical-align: bottom;
+}
+.circlelgreen {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(29, 176, 109, 0.28);
+  border-radius: 50%;
+  border-color: black;
+  display: inline-block;
+    vertical-align: bottom;
+}
+.circlered {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(238, 6, 10);
+  border-radius: 50%;
+  border-color: black;
+  display: inline-block;
+    vertical-align: bottom;
+}
+.circleblue {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(66, 135, 245);
+  border-radius: 50%;
+  border-color: black;
+  display: inline-block;
+    vertical-align: bottom;
+}
+.circleyellow {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(253, 212, 50);
+  border-radius: 50%;
+  border-color: black;
+  display: inline-block;
+    vertical-align: bottom;
+}
 
 .green{
 	color: rgb(29,176,109);
@@ -110,12 +199,14 @@ hr{
 	color: rgba(29, 176, 109, 0.28);
 }
 
-#lgreenbground{
-	background-color: rgba(29, 176, 109, 0.28);
+#divimage{
+	position: relative;
+	background-image: url('typo2.jpg'); 
+	background-repeat: no-repeat;
 	padding: 10px 0px 30px 0px;
 	margin: 40px auto;
-
 }
+
 #lbluebackgound{
 	background-color: rgba(0, 0, 199, 0.15);
 	padding: 10px 0px 30px 0px;
