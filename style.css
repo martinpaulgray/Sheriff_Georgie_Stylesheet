@@ -1,0 +1,158 @@
+/*fonts*/
+/* latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v18/u-4i0qWljRw-PfU81xCKCpdpbgZJl6XvqdnsF3-OAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabin/v18/u-4i0qWljRw-PfU81xCKCpdpbgZJl6XvqdnsF3-OAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabinsketch/v14/QGYpz_kZZAGCONcK2A4bGOj8mNhNy_r-Kw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cabinsketch/v14/QGY2z_kZZAGCONcK2A4bGOj0I_1Y5tjzAYOcFg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header{
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: rgb(29,176,109);
+	z-index: 10;
+}
+main{
+	position: absolute;
+	width: 100%;
+	top: 175px;
+	text-align: center;
+}
+
+
+h1{
+	font-size: 42px;
+	font-family: Poppins, sans-serif;
+	font-weight: 700;
+	
+}
+
+h2{
+	font-size: 36px;
+	font-family: "Cabin Sketch", sans-serif;
+	font-weight: 400;
+}
+
+h4{
+	font-size: 28px;
+}
+
+p{
+	font-size: 18px;
+	font-family: cabin, sans-serif;
+	font-weight: 300;
+	
+}
+
+em{
+	font-weight: bold;
+	font-size: 28;
+}
+
+hr{ 
+	border: 2px solid;
+	border-color: rgb(29,176,109);
+	width: 200px;
+}
+
+.main img {
+  margin: 50px 0px 0px 0px;
+}
+
+
+.green{
+	color: rgb(29,176,109);
+}
+.lightgreen{
+	color: rgba(29, 176, 109, 0.28);
+}
+
+#lgreenbground{
+	background-color: rgba(29, 176, 109, 0.28);
+	padding: 10px 0px 30px 0px;
+	margin: 40px auto;
+
+}
+#lbluebackgound{
+	background-color: rgba(0, 0, 199, 0.15);
+	padding: 10px 0px 30px 0px;
+	margin: 10px auto;
+}
+
+#lredbackground{
+	background-color: rgba(238, 6, 10, 0.2);
+	padding: 10px 0px 30px 0px;
+	margin: 10px auto;
+}
+
+.red{
+	color: rgb(238, 6, 10);
+}
+
+.yellow{
+	color: rgb(253, 212, 50, 1);
+}
+
+.blue{
+	color: rgb(66, 135, 245);
+}
+
+.poppins{
+	font-family: "Poppins", sans-serif;
+}
+
+.cabinSketch{
+	font-family: "Cabin Sketch", sans-serif;
+}
+
+.cabin{
+	font-family: Cabin, sans-serif;
+}
+
+.cabinSketchRed{
+	font-family: "Cabin Sketch", sans-serif;
+	color: rgb(238, 6, 10);
+}
