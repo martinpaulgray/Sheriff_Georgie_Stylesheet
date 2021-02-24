@@ -144,7 +144,7 @@ main{
 }*/
 
 .row2 {
-  background-image: url('./images/bground.jpg'); 
+  background-image: url('bground.jpg'); 
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -205,13 +205,12 @@ hr{
 }
 
 ul{
-padding-left: 0px;
 	line-height: 3em;
 	margin-top: 50px;
 }
 
 li{
-  list-style-type: none;
+	list-style-type: none;
 	font-size: 18px;
 }
 
@@ -221,15 +220,12 @@ button{
   height: 50px;
   border-radius: 50px;
  margin: 50px auto 0px auto;
+  border-color: rgb(29,176,109);
   font-family: "Cabin Sketch";
 font-weight: 300;
 text-align: center;
 color: white;
 font-size: 18px;
-}
-
-button:hover{
-  background-color: rgb(253, 212, 50);
 }
 
 footer{
@@ -313,7 +309,7 @@ footer{
 
 #divimage{
   position: relative;
-  background-image: url('./images/typo2.jpg'); 
+  background-image: url('typo2.jpg'); 
   background-repeat: no-repeat;
   padding: 10px 0px 30px 0px;
   margin: 40px auto;
