@@ -1,144 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Sheriff Georgie Stylesheets</title>
+<title>Sheriff Georgie</title>
 <meta charset="utf-8">
 <link href="style.css" rel="stylesheet">
 </head>
 <body>
+
+	<!-- container-->
+	<div class='container'> <!-- start of wrapper -->
+
 	<header>
-	
+		<div class='column'>
+			<div class='column left'><img src="./images/signpost.png" style="height:150px" alt="Signpost"></div>
+			<div class='column middle'><img src="./images/Title.png" style="height:150px" alt="main title"></div>
+			<div class='column right'><p style="color:white">Welcome to Cooksville!<br><br>Enjoy your stay, stick to the below rules whilst you're here and everything will be sweet!</p></div>
+		</div>
 	</header>
 
-	<div class="row">
-		<div class="column left"><img src="signpost.png" style="height:150px" alt="Signpost"></div>
-		<div class="column middle"><img src="Title.png" style="height:150px" alt="main title"></div>
-		<div class="column right"><p style="color:white">Welcome to Cooksville!<br>Enjoy your stay, stick to the below rules whilst you're here and everything will be sweet!</p></div>
-	</div>
+	
 
-<!-- colours -->
+<!-- description -->
 
 <main>
-<div id="wrapper"><!-- start of wrapper -->
-	<!-- Colours -->
-	<div> 
-       <h1>Colours</h1>
-        <p>Feel free to use tints of these lovely hues as well.</p>
-        <ul>
-        	<li class="circlegreen"></li>
-        	<li class="greentext">Green RGB(29,176,109)</li>
-        	<li class="circlelgreen"></li>
-        	<li class="lgreentext">Light Green RGB(29, 176, 109, .28)</li>
-        	<li class="circleyellow"></li>
-        	<li class="yellowtext">Yellow RGB(253, 212, 50,1)</li>
-        	<li class="circlered"></li>
-        	<li class="redtext">Red RGB(238, 6, 10)</li>
-        	<li class="circleblue"></li>
-        	<li class="bluetext">Blue RGB(66, 135, 245)</li>
-        	</ul>
-    </div>
-
-
-	<!-- fonts -->
-	<div id="divimage">
-		<h1 style="color:rgb(29,176,109)">Typefaces</h1>
-		<h4 class='poppins'>Poppins</h4>
-		<p class='poppins'>In the far away land of Yonder, past the forest of the Flomflom trees, there's a dusty old town called Cooksville.</p>
-		<hr>
-		<h4 class='cabinSketch'>Cabin Sketch</h4>
-		<p class='cabinSketch'>Folks there are called 'Cookies'. Some are good, some are bad, and some are just Rinky Dinky rotten.</p>
-		<hr>
-		<h4 class='cabin'>Cabin</h4>
-		<p class='cabin'>The sharpest little Cookie of them all is Georgie Green, and she's the town's Sheriff!</p>
+	<div id="description" class='container'> 
+		<h1>YEEHAA!</h1>
+        <p class='poppins'>In the far away land of Yonder, past the forest of the Flomflom trees, there's a dusty old town called Cooksville.<br>
+		Folks there are called 'Cookies'. Some are good, some are bad, and some are just Rinky Dinky rotten.<br>
+		The sharpest little Cookie of them all is Georgie Green, and she's the town's Sheriff!</p>
 	</div>
 
 
-	<!-- Typography -->
-	<div>
-		<h1>Typography</h1>
-		<h2 class='poppins'>Heading Style</h2>
-		<p class='poppins'>
-		Font Family: Poppins<br>
-		Colour: Black<br>
-		Font Size: 42px<br>
-		Font Weight: 700<br>
-		Text Alignment: left</p>
-		<hr>
+	<!-- books ADD A HREF to AMAZON-->
+	<div id="store" class='container'>
+		<div class="book">
+			<img src="./images/rinky.jpg" style="height:150px" alt="rinky dinky rascals">
+			<div>
+				<h2 class='poppins'>Rinky Dinky Rascals</h2>
+				<span>Can our cool-headed Sheriff and her trusty Deputy outsmart the Rinky Dinky Rascals and return the guarded gold safely to the bank.</span>
+			</div>
+		</div>
+		
+		<div class="book">
+			<img src="./images/fruitloops.jpg" style="height:150px" alt="Fruitloops the Clown">
+			<div>
+				<h2 class='poppins'>Fruitloops the Clown</h2>
+				<p>Join Georgie and Will as they chase Fruitloops the crafty clown, and try to set the captured Bruno bear free.</p>
+			</div>
+		</div>
 
-		<h2 class='cabinSketchRed'>Sub heading Style</h2>
-		<p class='cabinSketch'>
-		Font Family: Cabin Sketch<br>
-		Colour: Red RGB(238, 6, 10)<br>
-		Font Size: 36px<br>
-		Font Weight: 400<br>
-		Text Alignment: left</p>
-		<hr>
+		<div class="book">
+			<img src="./images/runawaytrain.jpg" style="height:150px" alt="Runaway Train">
+			<div>
+				<h2 class='poppins'>Runaway Train</h2>
+				<p>Fun at Cooksville’s train station turns to disaster when the train leaves without the driver.<br>Can Georgie and Will save the trapped twins before the train reaches the broken bridge.</p>
+			</div>
+		</div>
 
-		<h2 class='cabin'>Paragraph Style</h2>
-		<p class='cabin'>
-		Font Family: Cabin<br>
-		Colour: Black <br>
-		Font Size: 18px<br>
-		Font weight: 300<br>
-		Line Height: Normal<br>
-		Text Alignment: Justified</p>
-		<hr>
+		<div class="book">
+			<img src="./images/christmas.jpg" style="height:150px" alt="Christmas Cookies">
+			<div>
+				<h2 class='poppins'>Christmas Cookies</h2>
+				<p>Nobody in Cooksville knows who Father Christmas is, except our favourite Sheriff.<br>But what's with that big sack of cookies?</p>
+			</div>
+		</div>
 
-		<h2>Divider Rule</h2>
-		<p>
-			Colour: Green RGB(29,176,109)<br>
-			Border Width: 2px<br>
-		</p>
+		<div class="book">
+			<img src="./images/activity.jpg" style="height:150px" alt="Activity">
+			<div>
+				<h2 class='poppins'>Activity</h2>
+				<p>Mazes, puzzles, dot-to-dots, crosswords and more!</p>
+			</div>
+		</div>
+
+		<div class="book">
+			<img src="./images/rinky.jpg" style="height:150px" alt="Coming soon...">
+			<div>
+				<h2 class='poppins'>Coming soon...</h2>
+				<p>Who knows what's coming next<br> Check back for more details...</p>
+			</div>
+		</div>
+	
 	</div>
 
 
-	<!-- Imagery -->
-	<div class="row2">
-		<div class="column left2"><img class="imgfit" style= "margin-left:10px" src="intro_web.png" alt="georgie"></div>
-		<div class="column middle2">
-			<h1 class="red">Imagery</h1>
-			<h2 class="green">Characters</h2>
-			<p>Couldn't think of any funny, punchy text for here, I'll revisit it further through the course.</p>
-			<hr>
-			<h2 class="green">Books</h2>
-			<p>Max Width: 100%<br>
-			Width: 200px<br>
-			Clear: Left<br>
-			Float: Left<br>
-			Margin-right: 10px<br>
-			Border Colour: Green RGB(29,176,109)<br>
-			Border Width: 2px<br>
-			Border Style: Solid</p></div>
-		<div class="column right2"><img class="imgfit" style= "margin-right:25px; border-color:rgb(29,176,109); border-width: 2px; border-style: solid; height: 350px" src="rdr.png" alt="Book cover"></div>
+	<!-- characters -->
+	<h1 style="padding-top: 20px">Cooksville's Characters</h1>
+	<div id="characters" class='container'>
+		<div class="people">
+			<img src="./images/georgie.jpg" alt="georgie">
+			<div><h2 class='poppins'>Sheriff Georgie</h2>
+			<span>Georgie was raised by her father, who was Cooksville's Sheriff at the time.<br>With the knowledge from her father and her mother's spirit, Georgie became <i>'The sharpest little Cookie in Cooksville'.</i></span>
+			</div>
+		</div>
+		
+		<div class="people">
+			<img src="./images/will.jpg" alt="will">
+			<div><h2 class='poppins'>Deputy Will</h2>
+			<span>Best friends, school friends and now Sheriff and Deputy, Will and Georgie are never far away from each other. Will helps Georgie look after Cooksville and is always by her side to lend a hand when needed.</span>
+			</div>
+		</div>
+		
+		<div class="people">
+			<img src="./images/marty.jpg" alt="marty">
+			<div><h2 class='poppins'>Marty Gray</h2>
+			<span>With 30+ years in the Graphics Production industry, Marty turned his attention to children's character books.<br>All he needed was some decent content!</span>
+			</div>
+		</div>
+		
 	</div>
 
-
-
-	<!--button -->
-	<div>
-		<button>Website Buttons</button>
-		<p>Colour: Green RGB(29,176,109)<br>
-		Colour Hover: Yellow #fdd432<br>
-		Width: 200px<br>
-		Border Radius: 50px<br>
-		Clear: Left<br>
-		Float: Left<br>
-		Margins: Auto<br>
-		Border Colour: Green RGB(29,176,109)<br></p>
-		<hr>
-		<button>Button Text</button>
-		<p>Font Family: Cabin Sketch<br>
-		Font Weight: 300<br>
-		Text Alignment: Centred<br>
-		Text Colour: White<br>
-		Font Size: 18px<br>
-		</p>
-		<hr>
-	</div>
-</div> <!-- end of wrapper -->
-<footer><p>Visit Sheriffgeorgie.com for fun, games and great books! &copy; Martin Gray 2021</p>
+<footer class='container'>
+	<img src="./images/barrel.png" alt="barrel">
+	<p>Visit Sheriffgeorgie.com for fun, games and great books! &copy; Martin Gray 2021</p>
 </footer>
+
+	
+</div> <!-- end of wrapper -->
+
 </main>
 
+
+	</div> <!-- end container-->
 </body>
 </html>
